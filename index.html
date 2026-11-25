@@ -10,96 +10,139 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header wrap">
-    <a class="site-name" href="#profile-name">Muhammad Qasim Hussain</a>
+    <a class="site-name" href="#profile">Academic profile</a>
     <nav aria-label="Main navigation">
       <a href="#publication">Publication</a>
-      <a href="#research">Research</a>
       <a href="#cv">CV</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
     </nav>
   </header>
 
   <main class="wrap" id="main" tabindex="-1">
-    <section class="intro" aria-labelledby="profile-name">
-      <p class="eyebrow">Bauhaus-Universität Weimar</p>
-      <h1 id="profile-name">Muhammad Qasim Hussain</h1>
-      <p class="lede">I’m completing an MSc in Digital Engineering with the <a href="https://webis.de/">Webis group</a>. I study why models that identify arguments on one dataset can struggle on another, and what helps them transfer.</p>
-      <p class="link-row"><a class="key-link" href="#cv">View academic CV</a> <a href="mailto:muhammad.qasim.hussain@uni-weimar.de">Email</a> <a href="https://orcid.org/0009-0009-2007-6452">ORCID</a></p>
+    <section class="section intro" id="profile" aria-labelledby="profile-name">
+      <p class="section-label">Profile</p>
+      <div class="section-content">
+        <h1 id="profile-name">Muhammad Qasim Hussain</h1>
+        <p class="meta">M.Sc. Digital Engineering candidate · Weimar, Germany</p>
+        <p class="lede">I’m completing a master’s degree at Bauhaus-Universität Weimar with the <a href="https://webis.de/">Webis group</a>. I study why models that identify arguments well on one dataset can struggle on another, and what helps them transfer.</p>
+        <ul class="inline-list contact">
+          <li><a href="mailto:muhammad.qasim.hussain@uni-weimar.de">muhammad.qasim.hussain@uni-weimar.de</a></li>
+          <li><a href="https://orcid.org/0009-0009-2007-6452">ORCID 0009-0009-2007-6452</a></li>
+        </ul>
+      </div>
     </section>
 
     <section class="section" id="publication" aria-labelledby="publication-heading">
-      <h2 id="publication-heading">Publication</h2>
-      <article>
+      <h2 class="section-label" id="publication-heading">Publication &amp; award</h2>
+      <article class="section-content">
         <h3><a href="https://ceur-ws.org/Vol-4283/paper497.pdf">The Wildcards at Touché: Guideline-Conditioned Argument Identification with Dataset-Level Expert Routing</a></h3>
-        <p class="secondary"><strong>Muhammad Qasim Hussain</strong>, Maximilian Heinrich, Midhun Kanadan, and Benno Stein. <em>CLEF 2026 Working Notes</em>, CEUR Workshop Proceedings, vol. 4283, pp. 6522–6536.</p>
-        <p>We tested whether giving a model different definitions of an argument changes how well it classifies the same tweets. I presented the work at CLEF in Jena. Our submission received the Touché 2026 award for the highest Supplementary score in the argument identification task.</p>
-        <p class="link-row"><a href="https://ceur-ws.org/Vol-4283/paper497.pdf">Read the paper (PDF)</a> <a href="https://touche.webis.de/publications.html">Touché proceedings listing</a></p>
+        <p><strong>Muhammad Qasim Hussain</strong>, Maximilian Heinrich, Midhun Kanadan, and Benno Stein. <em>CLEF 2026 Working Notes</em>, CEUR Workshop Proceedings, vol. 4283, pp. 6522–6536.</p>
+        <p>We tested whether giving a model different definitions of an argument changes how well it classifies the same tweets. I presented the work in Jena, Germany, in September 2026.</p>
+        <p><strong>Touché 2026 Award:</strong> Highest Supplementary score in the Generalizability of Argument Identification in Context task, using guideline conditioning.</p>
+        <ul class="inline-list">
+          <li><a href="https://ceur-ws.org/Vol-4283/paper497.pdf">Read the paper (PDF)</a></li>
+          <li><a href="https://touche.webis.de/publications.html">Touché proceedings</a></li>
+        </ul>
       </article>
     </section>
 
-    <section class="section" id="research" aria-labelledby="thesis-heading">
-      <h2 id="thesis-heading">Master’s research</h2>
-      <h3>Cross-Dataset Generalization in Argument Identification: What Helps and Where Are the Limits?</h3>
-      <p>A sentence can count as an argument under one dataset’s rules but not another’s. My thesis compares ways of combining classifiers, giving models the annotation guidelines, and providing the original passage or a generated record of it.</p>
+    <section class="section" id="cv" aria-labelledby="education-heading">
+      <h2 class="section-label" id="education-heading">Education</h2>
+      <div class="section-content">
+        <article class="entry">
+          <header class="entry-heading"><h3>M.Sc. Digital Engineering</h3><p class="date">2024–present</p></header>
+          <p class="meta">Faculty of Media, Bauhaus-Universität Weimar, Germany</p>
+          <ul>
+            <li>Thesis: <a href="#research">Cross-Dataset Generalization in Argument Identification: What Helps and Where Are the Limits?</a></li>
+            <li>Transcript dated 31 August 2026: average grade 1.80 (German scale, 1.0 highest); 96 of 120 ECTS completed.</li>
+            <li>Thesis officially registered. Target degree completion: January 2027, subject to assessment and defence.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <header class="entry-heading"><h3>B.E. Mechanical Engineering</h3><p class="date">2019–2023</p></header>
+          <p class="meta">National University of Sciences and Technology, Islamabad, Pakistan</p>
+          <p>Bachelor’s thesis: <em>Sustainable Domestic Water Heating System</em>. Designed and instrumented a solar-thermal water-heating prototype.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="section" id="cv" aria-labelledby="cv-heading">
-      <h2 id="cv-heading">Academic CV</h2>
+    <section class="section" id="research" aria-labelledby="research-heading">
+      <h2 class="section-label" id="research-heading">Research</h2>
+      <article class="section-content entry">
+        <header class="entry-heading"><h3>Master’s thesis · Cross-dataset argument identification</h3><p class="date">Apr 2026–present</p></header>
+        <p class="meta">Webis group, Bauhaus-Universität Weimar</p>
+        <p><em>Cross-Dataset Generalization in Argument Identification: What Helps and Where Are the Limits?</em></p>
+        <ul>
+          <li>Compared ways of combining classifiers across 17 datasets and tracked when labeled examples from a new dataset were used to tune the models or choose a rule.</li>
+          <li>Tested whether giving the same model different labeling guidelines helped it make the correct decisions on the same tweets, building on the published Touché work.</li>
+          <li>Compared original passages with generated records, then tested whether using the predicted claim role worked better than asking the model directly whether a sentence contained a claim.</li>
+          <li>Set up repeatable evaluations for trained classifiers and prompted language models, saving individual predictions to investigate failures as well as overall scores.</li>
+        </ul>
+      </article>
+    </section>
 
-      <section class="cv-group" aria-labelledby="cv-education">
-        <h3 id="cv-education">Education</h3>
-        <div class="entry">
-          <p class="date">2024–present</p>
-          <div><h4>MSc Digital Engineering</h4><p>Bauhaus-Universität Weimar, Germany</p></div>
-        </div>
-        <div class="entry">
-          <p class="date">2019–2023</p>
-          <div><h4>BE Mechanical Engineering</h4><p>National University of Sciences and Technology, Pakistan</p></div>
-        </div>
-      </section>
+    <section class="section" id="teaching" aria-labelledby="teaching-heading">
+      <h2 class="section-label" id="teaching-heading">Teaching</h2>
+      <article class="section-content entry">
+        <header class="entry-heading"><h3>University tutor (Wissenschaftlicher Assistent)</h3><p class="date">May–Sep 2026</p></header>
+        <p class="meta">Chair of Optimization and Stochastics, Bauhaus-Universität Weimar</p>
+        <p>Reviewed and corrected assignments in <em>Introduction to Optimization</em> and <em>Stochastic Simulation Techniques and Structural Reliability</em>, checking the accuracy and completeness of the submitted solutions.</p>
+      </article>
+    </section>
 
-      <section class="cv-group" aria-labelledby="cv-experience">
-        <h3 id="cv-experience">Research and university experience</h3>
-        <div class="entry">
-          <p class="date">Apr 2026–present</p>
-          <div>
-            <h4>Master’s research · Webis group</h4>
-            <p>Set up repeatable evaluations for trained classifiers and prompted language models, saving individual predictions for error analysis.</p>
-          </div>
-        </div>
-        <div class="entry">
-          <p class="date">May–Sep 2026</p>
-          <div>
-            <h4>University tutor · Chair of Optimization and Stochastics</h4>
-            <p>Reviewed and corrected assignments in optimization and stochastic simulation at Bauhaus-Universität Weimar.</p>
-          </div>
-        </div>
-      </section>
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <h2 class="section-label" id="projects-heading">Projects</h2>
+      <div class="section-content">
+        <article class="entry">
+          <header class="entry-heading"><h3>Logic, Argumentation, and LLMs</h3><p class="date">2025</p></header>
+          <p class="meta">Bauhaus-Universität Weimar · 12-ECTS Special Project · Grade 1.0</p>
+          <ul>
+            <li>Compared classical machine learning, recurrent networks, BERT and SBERT, context-aware and long-context encoders, and compact language models for argument-component classification on political-debate data.</li>
+            <li>Fine-tuned DeepSeek-R1-Distill-Qwen-1.5B on 64 AI-generated paragraph-to-JSON examples and rendered predicted sentence nodes, argumentative roles, and directed relations as an argument graph. This was a proof of concept; it was not evaluated against human graph annotations.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <header class="entry-heading"><h3>Wall Crack Detection</h3><p class="date">2024</p></header>
+          <p class="meta">Computer vision</p>
+          <p>Built a computer-vision pipeline covering annotation, augmentation, thresholding, morphological segmentation, feature extraction, rule-based classification, intersection-over-union (IoU) evaluation, and crack-length estimation.</p>
+        </article>
+        <article class="entry">
+          <header class="entry-heading"><h3>Erfurt Public-Transport Simulation</h3><p class="date">2024</p></header>
+          <p class="meta">Agent-based and discrete-event simulation</p>
+          <p>Developed and validated an AnyLogic model of passenger flow at Erfurt central station. Used it to evaluate infrastructure capacity with demand increases from 10% to 100%.</p>
+        </article>
+        <article class="entry">
+          <h3>GIS Analysis of Weimar Population and Immigration</h3>
+          <p class="meta">Digital Engineering coursework</p>
+          <p>Used QGIS to analyse spatial patterns of population and immigration in Weimar, Germany.</p>
+        </article>
+      </div>
+    </section>
 
-      <section class="cv-group" aria-labelledby="cv-projects">
-        <h3 id="cv-projects">Selected projects</h3>
-        <dl class="details">
-          <dt>Logic, Argumentation, and LLMs</dt>
-          <dd>Compared models for identifying components of arguments in political debates and built a prototype for turning predictions into an argument graph.</dd>
-          <dt>Erfurt Public-Transport Simulation</dt>
-          <dd>Modelled passenger flow at Erfurt central station in AnyLogic and tested the effect of increasing demand.</dd>
-          <dt>Wall Crack Detection</dt>
-          <dd>Built a computer-vision pipeline to segment wall cracks and estimate crack length.</dd>
-          <dt>GIS Analysis of Weimar Population and Immigration</dt>
-          <dd>Used QGIS to analyse spatial patterns of population and immigration in Weimar.</dd>
-        </dl>
-      </section>
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <h2 class="section-label" id="skills-heading">Technical skills</h2>
+      <dl class="section-content details">
+        <dt>Experimental methods</dt>
+        <dd>Cross-dataset evaluation, multi-seed experiments, paired bootstrap confidence intervals, error analysis.</dd>
+        <dt>Programming and data</dt>
+        <dd>Python, SQL, pandas, scikit-learn.</dd>
+        <dt>NLP and machine learning</dt>
+        <dd>PyTorch, Hugging Face Transformers, transformer fine-tuning, QLoRA, LLM inference, structured generation, graph models.</dd>
+        <dt>Research infrastructure</dt>
+        <dd>Linux, Git, Slurm, vLLM, REST APIs, LaTeX.</dd>
+        <dt>Engineering tools</dt>
+        <dd>AnyLogic, QGIS, MATLAB, ANSYS.</dd>
+      </dl>
+    </section>
 
-      <section class="cv-group" aria-labelledby="cv-methods">
-        <h3 id="cv-methods">Technical skills</h3>
-        <dl class="details">
-          <dt>Experimental methods</dt>
-          <dd>Cross-dataset evaluation, multi-seed experiments, paired bootstrap confidence intervals, and error analysis.</dd>
-          <dt>Python and NLP</dt>
-          <dd>Python, pandas, scikit-learn, PyTorch, Hugging Face Transformers, transformer fine-tuning, and LLM inference.</dd>
-          <dt>Research computing</dt>
-          <dd>Linux, Git, Slurm, vLLM, and LaTeX.</dd>
-        </dl>
-      </section>
+    <section class="section" id="languages" aria-labelledby="languages-heading">
+      <h2 class="section-label" id="languages-heading">Languages</h2>
+      <dl class="section-content details">
+        <dt>English</dt><dd>Professional working proficiency.</dd>
+        <dt>German</dt><dd>A2.1 course completed; certificate issued October 2026.</dd>
+        <dt>Urdu and Punjabi</dt><dd>Native.</dd>
+      </dl>
     </section>
   </main>
 
